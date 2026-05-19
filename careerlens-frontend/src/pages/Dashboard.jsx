@@ -39,7 +39,7 @@ const handleAnalyze = async () => {
   try {
 
     const response = await axios.post(
-      "http://127.0.0.1:5000/analyze-resume",
+      "https://careerlens-ai-8la2.onrender.com/analyze-resume",
       formData
     );
 
